@@ -1,0 +1,111 @@
+body {
+	background-color: antiquewhite;
+	font-family: 'Poppins', sans-serif;
+	margin: 0px;
+}
+
+header {
+	display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+    /* justify-content: center; */
+	background-color: rgb(2, 218, 218)
+}
+
+header h1 {
+	line-height: 1em;
+	color: darkblue;
+	text-align: left;
+	padding: 0px 20px;
+	font-size: 22px;
+}
+
+.flex-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* border: 1px solid black; */
+}
+
+.logo {
+    margin: 0px 50px;
+}
+
+.site-desc {
+    width: 60%;
+    align-self: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+	overflow: hidden;
+	background-color: rgb(100, 128, 128);
+	display: flex;
+	justify-content: flex-end; 
+  }
+  
+nav li {
+	display: inline;
+	margin: 0px 10px;
+  }
+
+nav a {
+	color: white;
+}
+
+nav a:hover {
+	color: lightsalmon;
+}
+nav a:active {
+	color: lightgreen;
+}
+
+main {
+    margin: 20px 50px;
+    padding: 0px;
+}
+
+.fish-flexbox {
+    border: 1px solid red;
+}
+
+.fishTank {
+	display: flex;
+    margin: 0px 0px;
+    border: 1px dashed aqua;
+}
+
+.fishList{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+    border: 1px dashed green;	
+}
+
+.fish-card {
+	background-color: lightcyan;
+	margin: 10px;
+	max-width: 200px;
+}
+
+.fish-card ul {
+	list-style-type:none;
+	padding: 10px;
+	margin: 5px;
+	font-size: 16px;
+}
+
+.fish-image {
+	width: 100%;
+	height: auto;
+}
+
+
+footer {
+	background-color: darkcyan;
+	color: whitesmoke;
+	text-align: center;
+}
