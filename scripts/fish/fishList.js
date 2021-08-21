@@ -4,8 +4,7 @@
 import { getFish } from "./fishData.js";
 import { Fish } from "./Fish.js";
 
-export const FishList = () => {
-
+export const fishList = () => {
     
     // Get a reference to the <section class="fishList"> element
 

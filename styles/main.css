@@ -1,111 +1,241 @@
 body {
-	background-color: antiquewhite;
+	background-color: white;
 	font-family: 'Poppins', sans-serif;
 	margin: 0px;
 }
 
 header {
 	display: flex;
-    flex-direction: row;
+  flex-direction: column;
 	flex-wrap: nowrap;
-	align-items: center;
-    /* justify-content: center; */
-	background-color: rgb(2, 218, 218)
-}
-
-header h1 {
-	line-height: 1em;
-	color: darkblue;
-	text-align: left;
-	padding: 0px 20px;
-	font-size: 22px;
+	align-items: left;
+	background-color: white;
 }
 
 .flex-header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0px 10px 20px 10px;
+  /* padding: 20px 80px 20px 0px; */
+  /* border: 3px solid red; */
 }
 
 .logo {
-    margin: 0px 50px;
+  margin: 20px 0px 0px 60px;
+  /* border: 2px solid lightgreen; */
 }
 
 .site-desc {
-    width: 60%;
-    align-self: center;
+  width: 80%;
+  text-align: center;
+  align-self: center;
+  margin: 0px 30px 0px 0px;
+  padding: 0px 30px;
+  /* border: 2px solid pink; */
+}
+
+.site-desc h1 {
+  font-family: "Poppins", sans-serif; 
+  font-size: 55px;
+  color: rgb(1, 1, 69);
+  text-align: center;
+}
+
+.site-desc h2 {
+  font-family: "PT Serif", sans-serif;
+  font-size: 25px;
+  color: darkblue;
+  text-align: center;
 }
 
 nav ul {
-	list-style-type: none;
-	margin: 0px;
-	padding: 10px;
-	overflow: hidden;
-	background-color: rgb(100, 128, 128);
-	display: flex;
-	justify-content: flex-end; 
-  }
-  
+list-style-type: none;
+margin: 0px;
+padding: 10px;
+overflow: hidden;
+background-color: rgb(100, 128, 128);
+display: flex;
+justify-content: flex-end; 
+}
+
 nav li {
-	display: inline;
-	margin: 0px 10px;
-  }
+display: inline;
+margin: 0px 10px;
+}
 
 nav a {
-	color: white;
+color: white;
 }
 
 nav a:hover {
-	color: lightsalmon;
+color: lightsalmon;
 }
 nav a:active {
-	color: lightgreen;
+color: lightgreen;
 }
 
 main {
-    margin: 20px 50px;
-    padding: 0px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px;
+  padding: 0px;
+  background-color: #bfe6ff;
+  /* border: 1px dashed red;   */
+}
+
+body span {
+  width: 100%;
+  height: 4px; /* change this to make line thicker */
+  background-color: #5282FA;
+  /* border: 1px solid red; */
+}
+
+main h3 {
+  text-align: center;
 }
 
 .fish-flexbox {
-    border: 1px solid red;
+  flex-basis: 3;
+  padding: 10px 20px 10px 20px;
+  margin: 0px 40px;
+  /* border: 5px solid red; */
 }
 
 .fishTank {
 	display: flex;
-    margin: 0px 0px;
-    border: 1px dashed aqua;
+  flex-direction: column;
+  margin: 0px 0px;
+    /* border: 2px dashed aqua; */
+}
+
+.fishTank h1 {
+  font-size: 30px;
+  text-align: center;
 }
 
 .fishList{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-    border: 1px dashed green;	
+    /* border: 2px dashed green;	 */
 }
 
 .fish-card {
-	background-color: lightcyan;
-	margin: 10px;
-	max-width: 200px;
+	background-color: white;
+	margin: 20px 10px;
+	max-width: 250px;
+  border-radius: 15px;
+  border: 10px solid white;
 }
 
 .fish-card ul {
 	list-style-type:none;
-	padding: 10px;
-	margin: 5px;
+	padding: 10px 20px;
+	margin: 0px 0px;
 	font-size: 16px;
+  border: 1px solid #5282FA;
+  border-radius: 15px;
 }
 
 .fish-image {
 	width: 100%;
 	height: auto;
+  border-radius: 15px;
 }
 
+.tips {
+  padding: 0px 0px;
+  margin: 10px 10px;
+}
+
+.tipList {
+  padding: 0px 0px;
+  margin: 10px 10px;
+}
+
+.tipList h3 {
+  text-align: left;
+}
+
+.locations {
+  padding: 0px 0px;
+  margin: 10px 10px;
+}
+
+.locationList {
+  padding: 0px 0px;
+  margin: 10px 10px;
+}
+
+aside {
+  flex-basis: 1;
+  background-color: antiquewhite;
+  /* width: 40%; */
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+aside h3 {
+  padding: 0px 20px;
+}
+
+.tank-tips {
+margin: 0px 0px;
+padding: 0px 50px 20px 50px;
+}
+
+aside h3 {
+  font-size: 28px;
+  color: darkblue;
+  text-align: center;
+}
 
 footer {
-	background-color: darkcyan;
-	color: whitesmoke;
+	background-color: white;
+	color: black;
 	text-align: center;
+}
+
+.footer-flex span {
+  width: 100%;
+  height: 4px; /* change this to make line thicker */
+  background-color: #5282FA;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  /* border: 2px solid lightgreen; */
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.footer-row__col1 {
+  text-align: left;
+  flex: 1 1 auto;
+  /* border: 2px dashed red; */
+}
+
+.footer-row__col2 {
+  flex: 1 1 auto;
+  /* border: 1px solid red; */
+}
+
+.footer-row__col3 {
+  flex: 1 1 auto;
+  /* border: 1px solid red; */
+}
+
+.footer-logo {
+  margin: 10px 0px 0px 60px;
+  /* border: 2px solid lightgreen; */
 }

@@ -9,11 +9,11 @@ export const Fish = (fishObj) => {
                 <h3 class="fish-name">${fishObj.name}</h3>
 
                 <ul>
-                    <li class="fish-details">${fishObj.species}</li>
+                    <li class="fish-details">Species: ${fishObj.species}</li>
                     <li class="fish-details">Length: ${fishObj.length} inches</li>
                     <li class="fish-details">Found: ${fishObj.harvestLocation}</li>
                     <li class="fish-details">Diet: ${fishObj.food}</li>
-                    <li class="fish-details">Water Type: ${fishObj.waterType}</li>
+                    <li class="fish-details">H20 Type: ${fishObj.waterType}</li>
                 </ul>
 
             </article>`
