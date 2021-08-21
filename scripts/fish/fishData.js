@@ -5,16 +5,16 @@ export const getFish = () => {
 
 const fishCollection = [
     {
-        name: "Bart",
+        name: "Betty Lou",
         food: "Crustaceans",
         image: "1.png",
         species: "Trigger",
 		length: 7,
-		waterType: "Salt",
+		waterType: "Fresh",
 		harvestLocation: "Costa Rica"
     },
     {
-        name: "Mr Freeze",
+        name: "Majestic",
         food: "Meal Worms",
 		image: "2.png",
 		species: "Tang",
@@ -23,52 +23,52 @@ const fishCollection = [
 		harvestLocation: "Florida"
     },
 	{
-        name: "Nemo",
+        name: "Sage",
         food: "Goldfish",
         image: "3.png",
         species: "Clown",
         length: 3,
-        waterType: "Salt",
+        waterType: "Fresh",
         harvestLocation: "Florida"
     },
 	{
-        name: "Don Julio",
+        name: "Celestine",
         food: "Snails",
         image: "4.png",
         species: "Stingray",
         length: 9,
         waterType: "Salt",
-        harvestLocation: "Dominican Republic"
+        harvestLocation: "Dominican"
     },
 	{
-        name: "Karen",
+        name: "Persephone",
         food: "Algae",
-        image: "5.png",
-        species: "Siamese Algae Eater",
+        image: "21.png",
+        species: "Algae Eater",
         length: 5,
         waterType: "Salt", 
         harvestLocation: "Puerto Rico"
     },
 	{
-		name: "Robin Gilliams",
-		food: "Bee Moths",
+		name: "Ruth Bader",
+		food: "Patriarchy",
 		image: "6.png",
-		species: "Clownfish",
+		species: "Queenfish",
 		length: 2,
-		waterType: "Salt",
+		waterType: "Fresh",
 		harvestLocation: "Mexico"
 	},
 	{
-        name: "Bruce",
-        food: "not fish",
+        name: "Lady Di",
+        food: "Fish Fingers",
         image: "7.png",
-        species: "greatWhite",
-        length: 130,
-        waterType: "Salt",
+        species: "Danios",
+        length: 2,
+        waterType: "Fresh",
         harvestLocation: "Sydney"
     },
 	{
-        name: "Bloat",
+        name: "Sweet Lily",
         food: "Shrimp",
         image: "8.png",
         species: "Blow Fish",
@@ -77,210 +77,183 @@ const fishCollection = [
         harvestLocation: "Mexico"
     },
 	{
-        name: "Gordon",
+        name: "Heaven",
         food: "Krill",
         image: "9.png",
-        species: "Blowfish",
+        species: "Tetra",
         length: 3,
         waterType: "Salt",
         harvestLocation: "Asia"
     },
 	{
-        name: "Gordon",
-        food: "Krill",
+        name: "Sunshine",
+        food: "Spirulina",
         image: "10.png",
-        species: "Blowfish",
-        length: 3,
-        waterType: "Salt",
-        harvestLocation: "Asia"
+        species: "Platies",
+        length: 4,
+        waterType: "Fresh",
+        harvestLocation: "Australia"
     },
     {
-        name: "Gordon",
+        name: "Harriet",
         food: "Krill",
         image: "11.png",
-        species: "Blowfish",
-        length: 3,
+        species: "Betta",
+        length: 6,
         waterType: "Salt",
         harvestLocation: "Asia"
     },
     {
-        name: "Gordon",
-        food: "Krill",
+        name: "Simone",
+        food: "Shrimp",
         image: "12.png",
-        species: "Blowfish",
-        length: 3,
+        species: "Goldfish",
+        length: 7,
         waterType: "Salt",
-        harvestLocation: "Asia"
+        harvestLocation: "Caribbean"
     },
     {
-        name: "Gordon",
-        food: "Krill",
+        name: "Dweezil",
+        food: "Seaweed",
         image: "13.png",
-        species: "Blowfish",
-        length: 3,
-        waterType: "Salt",
-        harvestLocation: "Asia"
+        species: "White Cloud",
+        length: 2,
+        waterType: "Fresh",
+        harvestLocation: "Atlantic"
     },
     {
-        name: "Gordon",
-        food: "Krill",
+        name: "Gloria",
+        food: "Flakes",
         image: "14.png",
-        species: "Blowfish",
+        species: "Black Molly",
         length: 3,
         waterType: "Salt",
-        harvestLocation: "Asia"
+        harvestLocation: "Pacific"
     },
     {
-        name: "Gordon",
+        name: "Hatshepsut",
         food: "Krill",
         image: "15.png",
-        species: "Blowfish",
-        length: 3,
+        species: "Kuhli Loach",
+        length: 4,
         waterType: "Salt",
-        harvestLocation: "Asia"
+        harvestLocation: "Africa"
     },
     {
-        name: "Gordon",
-        food: "Krill",
+        name: "Cleopatra",
+        food: "Brine",
         image: "16.png",
-        species: "Blowfish",
-        length: 3,
-        waterType: "Salt",
-        harvestLocation: "Asia"
+        species: "Swordtail",
+        length: 5,
+        waterType: "Fresh",
+        harvestLocation: "Japan"
     },
     {
-        name: "Gordon",
-        food: "Krill",
+        name: "Angelina",
+        food: "Shrimp",
         image: "17.png",
-        species: "Blowfish",
-        length: 3,
+        species: "Gourami",
+        length: 7,
         waterType: "Salt",
-        harvestLocation: "Asia"
+        harvestLocation: "Canada"
     },
     {
-        name: "Gordon",
+        name: "Rosa",
         food: "Krill",
         image: "18.png",
-        species: "Blowfish",
-        length: 3,
+        species: "Angelfish",
+        length: 6,
         waterType: "Salt",
-        harvestLocation: "Asia"
+        harvestLocation: "Atlantic"
     },
     {
-        name: "Gordon",
-        food: "Krill",
+        name: "Isabella",
+        food: "Spirulina",
         image: "19.png",
-        species: "Blowfish",
+        species: "Pacu",
         length: 3,
         waterType: "Salt",
-        harvestLocation: "Asia"
+        harvestLocation: "Pacific"
     },
     {
-        name: "Gordon",
-        food: "Krill",
+        name: "Alexandria",
+        food: "Plankton",
         image: "20.png",
-        species: "Blowfish",
-        length: 3,
-        waterType: "Salt",
+        species: "Pufferfish",
+        length: 1,
+        waterType: "Fresh",
         harvestLocation: "Asia"
     },
     {
-        name: "Gordon",
-        food: "Krill",
-        image: "21.png",
-        species: "Blowfish",
-        length: 3,
-        waterType: "Salt",
-        harvestLocation: "Asia"
+        name: "Joan of Arc",
+        food: "Brine",
+        image: "5.png",
+        species: "Discus",
+        length: 5,
+        waterType: "Fresh",
+        harvestLocation: "Turkey"
     },
     {
-        name: "Gordon",
-        food: "Krill",
-        image: "10.png",
-        species: "Blowfish",
-        length: 3,
-        waterType: "Salt",
-        harvestLocation: "Asia"
-    },
-    {
-        name: "Gordon",
-        food: "Krill",
-        image: "21.png",
-        species: "Blowfish",
-        length: 3,
-        waterType: "Salt",
-        harvestLocation: "Asia"
-    },
-    {
-        name: "Gordon",
+        name: "Princess",
         food: "Krill",
         image: "22.png",
-        species: "Blowfish",
-        length: 3,
+        species: "Plecos",
+        length: 6,
         waterType: "Salt",
         harvestLocation: "Asia"
     },
     {
-        name: "Gordon",
-        food: "Krill",
-        image: "22.png",
-        species: "Blowfish",
-        length: 3,
-        waterType: "Salt",
-        harvestLocation: "Asia"
-    },
-    {
-        name: "Gordon",
-        food: "Krill",
+        name: "Florence",
+        food: "Spirulina",
         image: "23.png",
-        species: "Blowfish",
+        species: "Flowerhorn",
         length: 3,
         waterType: "Salt",
         harvestLocation: "Asia"
     },
     {
-        name: "Gordon",
-        food: "Krill",
+        name: "Sojourner",
+        food: "Brine",
         image: "24.png",
-        species: "Blowfish",
-        length: 3,
+        species: "Snakehead",
+        length: 4,
         waterType: "Salt",
-        harvestLocation: "Asia"
+        harvestLocation: "Canada"
     },
     {
-        name: "Gordon",
-        food: "Krill",
+        name: "Sophia",
+        food: "Bloodworms",
         image: "25.png",
-        species: "Blowfish",
-        length: 3,
+        species: "Ropefish",
+        length: 2,
         waterType: "Salt",
-        harvestLocation: "Asia"
+        harvestLocation: "USA"
     },
     {
-        name: "Gordon",
-        food: "Krill",
+        name: "Charlotte",
+        food: "Plankton",
         image: "26.png",
-        species: "Blowfish",
-        length: 3,
-        waterType: "Salt",
-        harvestLocation: "Asia"
+        species: "Loach",
+        length: 5,
+        waterType: "Fresh",
+        harvestLocation: "USA"
     },
     {
-        name: "Gordon",
+        name: "Toni",
         food: "Krill",
         image: "27.png",
-        species: "Blowfish",
-        length: 3,
+        species: "Knifefish",
+        length: 6,
         waterType: "Salt",
-        harvestLocation: "Asia"
+        harvestLocation: "Canada"
     },
     {
-        name: "Gordon",
-        food: "Krill",
+        name: "Moon Unit",
+        food: "Fish Food",
         image: "28.png",
-        species: "Blowfish",
-        length: 3,
+        species: "Cichlid",
+        length: 2,
         waterType: "Salt",
-        harvestLocation: "Asia"
+        harvestLocation: "Egypt"
     }
 ]

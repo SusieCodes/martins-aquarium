@@ -6,33 +6,33 @@ body {
 
 header {
 	display: flex;
-    flex-direction: column;
+  flex-direction: column;
 	flex-wrap: nowrap;
 	align-items: left;
-    /* justify-content: center; */
-	/* background-color: white; */
+	background-color: white;
 }
 
 .flex-header {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin: 20px 60px;
-  /* padding: 20px 80px 20px 60px; */
-  /* border: 1px solid black; */
+  margin: 0px 10px 20px 10px;
+  /* padding: 20px 80px 20px 0px; */
+  /* border: 3px solid red; */
 }
 
 .logo {
-  margin: 0px 30px 0px 0px;
-  /* border: 1px solid black; */
+  margin: 20px 0px 0px 60px;
+  /* border: 2px solid lightgreen; */
 }
 
 .site-desc {
-  width: 90%;
-  text-align: right;
+  width: 80%;
+  text-align: center;
   align-self: center;
-  margin: 0px 30px 0px 30px;
-  /* border: 1px solid black; */
+  margin: 0px 30px 0px 0px;
+  padding: 0px 30px;
+  /* border: 2px solid pink; */
 }
 
 .site-desc h1 {
@@ -96,16 +96,22 @@ main h3 {
 }
 
 .fish-flexbox {
-  padding: 20px 20px;
-  margin: 30px 40px;
+  flex-basis: 3;
+  padding: 10px 20px 10px 20px;
+  margin: 0px 40px;
   /* border: 5px solid red; */
 }
 
 .fishTank {
 	display: flex;
-    flex-direction: column;
-    margin: 0px 0px;
+  flex-direction: column;
+  margin: 0px 0px;
     /* border: 2px dashed aqua; */
+}
+
+.fishTank h1 {
+  font-size: 30px;
+  text-align: center;
 }
 
 .fishList{
@@ -125,7 +131,7 @@ main h3 {
 
 .fish-card ul {
 	list-style-type:none;
-	padding: 10px;
+	padding: 10px 20px;
 	margin: 0px 0px;
 	font-size: 16px;
   border: 1px solid #5282FA;
@@ -138,14 +144,34 @@ main h3 {
   border-radius: 15px;
 }
 
+.tips {
+  padding: 0px 0px;
+  margin: 10px 10px;
+}
+
+.tipList {
+  padding: 0px 0px;
+  margin: 10px 10px;
+}
 
 .tipList h3 {
   text-align: left;
 }
 
+.locations {
+  padding: 0px 0px;
+  margin: 10px 10px;
+}
+
+.locationList {
+  padding: 0px 0px;
+  margin: 10px 10px;
+}
+
 aside {
+  flex-basis: 1;
   background-color: antiquewhite;
-  width: 40%;
+  /* width: 40%; */
   margin: 0px 0px;
   padding: 0px 0px;
 }
@@ -166,72 +192,50 @@ aside h3 {
 }
 
 footer {
-	background-color: darkcyan;
-	color: whitesmoke;
+	background-color: white;
+	color: black;
 	text-align: center;
 }
 
+.footer-flex span {
+  width: 100%;
+  height: 4px; /* change this to make line thicker */
+  background-color: #5282FA;
+}
 
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  /* border: 2px solid lightgreen; */
+}
 
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
 
-.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 0px;
-    height: 100%;
-    color: white;
-    /* border: 3px dashed black; */
-  }
-  
-  .flex-container1__row1 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 95px;
-    flex-wrap: nowrap;
-  }
-  
-  .flex-container1__row2 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: nowrap;
-  }
-  
-  .flex-container1__row3 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: nowrap;
-  }
+.footer-row__col1 {
+  text-align: left;
+  flex: 1 1 auto;
+  /* border: 2px dashed red; */
+}
 
-  .flex-cont__col1 {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    margin: 70px 0px 0px 170px;
-  }
-  
-  .flex-cont__col2 {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    margin: 30px 0px 0px 0px;
-  }
+.footer-row__col2 {
+  flex: 1 1 auto;
+  /* border: 1px solid red; */
+}
 
+.footer-row__col3 {
+  flex: 1 1 auto;
+  /* border: 1px solid red; */
+}
 
-  .flex-cont__col2-row1 {
-    /* display: inline-block;  */
-    width: 43%;
-    color: white;
-    text-align: center;
-    margin: 10px 0px 0px 0px;
-  }
-  
-  .flex-cont__col2-row2 {
-    color: white;
-    text-align: left;
-    margin: 70px 0px 0px 0px;
-    padding: 0px;
-  }
+.footer-logo {
+  margin: 10px 0px 0px 60px;
+  /* border: 2px solid lightgreen; */
+}
