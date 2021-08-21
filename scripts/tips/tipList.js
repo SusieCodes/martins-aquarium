@@ -1,4 +1,4 @@
-import { getTips } from './TipData.js'
+import { getTips } from './tipData.js'
 import { Tip } from './Tip.js'
 
 // export const tipList = () => {
