@@ -54,7 +54,6 @@ list-style-type: none;
 margin: 0px;
 padding: 10px;
 overflow: hidden;
-background-color: rgb(100, 128, 128);
 display: flex;
 justify-content: flex-end; 
 }
@@ -69,10 +68,10 @@ color: white;
 }
 
 nav a:hover {
-color: lightsalmon;
+color: cyan;
 }
 nav a:active {
-color: lightgreen;
+color: navy;
 }
 
 main {
@@ -87,7 +86,7 @@ main {
 body span {
   width: 100%;
   height: 4px; /* change this to make line thicker */
-  background-color: #5282FA;
+  background-color: #028ee6; /* this is logo blue */
   /* border: 1px solid red; */
 }
 
@@ -144,28 +143,105 @@ main h3 {
   border-radius: 15px;
 }
 
+/* this code makes fish card pop off page */
+.fish-card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 15px 15px rgba(0,0,0, 0.75);
+}
+
 .tips {
   padding: 0px 0px;
   margin: 10px 10px;
 }
 
-.tipList {
-  padding: 0px 0px;
-  margin: 10px 10px;
+.tipList{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+    /* border: 2px dashed green;	 */
 }
 
 .tipList h3 {
   text-align: left;
+  text-decoration: underline;
+  padding: 0px 0px 0px 23px;
+}
+
+.tip-card {
+	background-color: white;
+	margin: 20px 10px;
+	max-width: 250px;
+  border-radius: 15px;
+  border: 10px solid white;
+}
+
+.tip-card p {
+	list-style-type:none;
+	padding: 10px 20px;
+	margin: 0px 0px;
+	font-size: 16px;
+  border-radius: 15px;
+}
+
+.tip-image {
+	width: 100%;
+	height: auto;
+  border-radius: 15px;
+}
+
+/* this code makes fish card pop off page */
+.tip-card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 15px 15px rgba(0,0,0, 0.75);
 }
 
 .locations {
   padding: 0px 0px;
-  margin: 10px 10px;
+  margin: 10px 0px;
 }
 
-.locationList {
-  padding: 0px 0px;
-  margin: 10px 10px;
+.locationList{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+    /* border: 2px dashed green;	 */
+}
+.locationList h3 {
+  text-align: left;
+}
+
+.location-card {
+  flex-basis: 1;
+	background-color: white;
+	margin: 20px 0px;
+	max-width: 250px;
+  border-radius: 15px;
+  border: 10px solid white;
+}
+
+.location-card h3 {
+  text-align: center;
+}
+
+.location-card ul {
+	list-style-type:none;
+	padding: 10px 20px;
+	margin: 0px 0px;
+	font-size: 16px;
+  border: 1px solid #5282FA;
+  border-radius: 15px;
+}
+
+.location-image {
+	width: 100%;
+	height: auto;
+  border-radius: 15px;
+}
+
+/* this code makes fish card pop off page */
+.location-card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 15px 15px rgba(0,0,0, 0.75);
 }
 
 aside {
@@ -176,19 +252,26 @@ aside {
   padding: 0px 0px;
 }
 
-aside h3 {
-  padding: 0px 20px;
+aside h2 {
+  font-size: 28px;
+  color: #028ee6;
+  text-align: center;
 }
 
 .tank-tips {
-margin: 0px 0px;
-padding: 0px 50px 20px 50px;
+  margin: 0px 0px;
+  padding: 0px 50px 20px 50px;
+  }
+
+.tank-tips p {
+  font-size: 18px;
+  text-align: left;
 }
 
-aside h3 {
-  font-size: 28px;
+.tank-tips h3 {
+  font-size: 22px;
   color: darkblue;
-  text-align: center;
+  text-align: left;
 }
 
 footer {
@@ -200,7 +283,7 @@ footer {
 .footer-flex span {
   width: 100%;
   height: 4px; /* change this to make line thicker */
-  background-color: #5282FA;
+  background-color: #028ee6;
 }
 
 .footer-flex {
@@ -216,7 +299,6 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  /* border: 1px solid red; */
 }
 
 .footer-row__col1 {
@@ -227,15 +309,75 @@ footer {
 
 .footer-row__col2 {
   flex: 1 1 auto;
+  margin: 0px 0px 0px 50px;
+  padding: 40px 0px 0px 100px;
   /* border: 1px solid red; */
+}
+
+.footer-row__col2 h3 {
+  font-size: 18px;
+  margin: 20px;
+  text-align: left;
+  /* border: 1px dotted green; */
+}
+
+.signup {
+  /* border: 5px dashed black; */
+  padding-left: 40px;
 }
 
 .footer-row__col3 {
   flex: 1 1 auto;
-  /* border: 1px solid red; */
+  text-align: right;
+  align-self: center;
+  /* border: 2px dashed cyan; */
 }
 
 .footer-logo {
   margin: 10px 0px 0px 60px;
-  /* border: 2px solid lightgreen; */
 }
+
+.address {
+  font-size: 20px;
+  vertical-align: bottom;
+  padding: 30px 40px;
+}
+
+/* SUBSCRIPTION BUTTON STYLING */
+
+.buttonIn {
+  width: 250px;
+  margin: 0px 0px 0px 10px;
+  position: relative;
+  } 
+  
+  input {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  outline: none;
+  height: 45px;
+  border: 0px;
+  border-radius: 50px;
+  box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.188);
+  }
+  
+  .subscribe-btn {
+  position: absolute;
+  top: 0;
+  border-radius: 50px;
+  right: 0px;
+  border: none;
+  width: 85px;
+  height: 45px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  background-color: transparent;
+  transform: translateX(2px);
+  /* background-color: #028ee6; */ /* this is the logo blue */
+  background: linear-gradient(to bottom, #028ee6 0%, #66ccff 100%);
+  background-size: 80px;
+  }
