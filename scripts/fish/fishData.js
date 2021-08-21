@@ -5,7 +5,7 @@ export const getFish = () => {
 
 const fishCollection = [
     {
-        name: "Betty Lou",
+        name: "Betty Lou ",
         food: "Crustaceans",
         image: "1.png",
         species: "Trigger",
