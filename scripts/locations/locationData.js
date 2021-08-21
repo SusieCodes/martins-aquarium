@@ -5,11 +5,28 @@ export const getLocation = () => {
 
 const Location = [
     {
-        country: "USA",
-        climate: "tropical"
+        name: "Tasmania",
+        image: "loc1.png",
+        country: "Australia",
+        climate: "Temperate"
     },
     {
+        
+        name: "Santiago",
+        image: "loc2.png",
+        country: "Panama",
+        climate: "Tropical"
+    },
+    {
+        name: "Miami",
+        image: "loc3.png",
         country: "USA",
-        climate: "tropical"
+        climate: "Warm"
+    },
+    {
+        name: "Nova Scotia",
+        image: "loc4.png",
+        country: "Canada",
+        climate: "Cold"
     }
 ]
