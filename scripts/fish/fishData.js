@@ -122,15 +122,6 @@ const fishCollection = [
         harvestLocation: "Atlantic"
     },
     {
-        name: "Gloria",
-        food: "Flakes",
-        image: "14.png",
-        species: "Black Molly",
-        length: 3,
-        waterType: "Salt",
-        harvestLocation: "Pacific"
-    },
-    {
         name: "Hatshepsut",
         food: "Krill",
         image: "15.png",

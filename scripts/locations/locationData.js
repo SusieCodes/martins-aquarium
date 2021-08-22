@@ -22,11 +22,5 @@ const Location = [
         image: "loc3.png",
         country: "USA",
         climate: "Warm"
-    },
-    {
-        name: "Nova Scotia",
-        image: "loc4.png",
-        country: "Canada",
-        climate: "Cold"
     }
 ]

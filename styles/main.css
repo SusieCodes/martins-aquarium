@@ -111,13 +111,14 @@ main h3 {
 .fishTank h1 {
   font-size: 30px;
   text-align: center;
+  padding: 10px 0px;
 }
 
 .fishList{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-  padding: 0px 40px 30px 40px;
+  padding: 0px 40px 40px 40px;
     /* border: 2px dashed green;	 */
 }
 
@@ -152,14 +153,15 @@ main h3 {
 
 .tips {
   background-color: rgb(225, 246, 255);
-  padding: 0px 0px 30px 0px;
+  padding: 0px 0px 40px 0px;
   margin: 0px 0px;
 }
 
 .tipList{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-evenly;
+  padding: 10px 40px;
     /* border: 2px dashed green;	 */
 }
 
@@ -172,12 +174,12 @@ main h3 {
 .tipList h3 {
   text-align: left;
   text-decoration: underline;
-  padding: 0px 0px 0px 23px;
+  padding: 0px 0px 10px 23px;
 }
 
 .tip-card {
 	background-color: white;
-	margin: 20px 10px;
+	margin: 10px 0px;
 	max-width: 250px;
   border-radius: 15px;
   border: 10px solid white;
@@ -191,12 +193,6 @@ main h3 {
   border-radius: 15px;
 }
 
-.tip-image {
-	width: 100%;
-	height: auto;
-  border-radius: 15px;
-}
-
 /* this code makes fish card pop off page */
 .tip-card:hover {
     transform: translateY(-5px) scale(1.005) translateZ(0);
@@ -204,7 +200,7 @@ main h3 {
 }
 
 .locations {
-  padding: 0px 0px;
+  padding: 0px 0px 10px 0px;
   margin: 0px 0px;
 }
 
@@ -214,13 +210,14 @@ text-align: center;
 padding-top: 10px;
 }
 
-.locationList{
+.locationList {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-  padding-bottom: 30px;
+  padding: 10px 40px 30px 40px;
     /* border: 2px dashed green;	 */
 }
+
 .locationList h3 {
   text-align: left;
 }
