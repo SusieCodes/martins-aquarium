@@ -3,6 +3,7 @@ export const getFish = () => {
     return fishCollection
 }
 
+
 const fishCollection = [
     {
         name: "Betty Lou ",
@@ -281,3 +282,4 @@ export const getUnworthyFish = () => {
     }
     return unworthyArray;
 }
+
