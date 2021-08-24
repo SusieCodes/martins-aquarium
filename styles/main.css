@@ -321,21 +321,28 @@ footer {
 
 .footer-row__col2 {
   flex: 1 1 auto;
-  margin: 0px 0px 0px 50px;
-  padding: 40px 0px 0px 100px;
+  text-align: center;
+  align-self: center;
   /* border: 1px solid red; */
 }
 
 .footer-row__col2 h3 {
   font-size: 18px;
-  margin: 20px;
-  text-align: left;
+  margin: 15px 0px 10px 3px;
+  text-align: center;
   /* border: 1px dotted green; */
 }
 
 .signup {
+  width: 250px;
+  text-align: center;
+  margin: 0px auto;
   /* border: 5px dashed black; */
-  padding-left: 40px;
+}
+
+.sub-button {
+  /* text-align: right; */
+  margin: 0px auto;
 }
 
 .footer-row__col3 {
@@ -351,16 +358,17 @@ footer {
 
 .address {
   font-size: 20px;
-  vertical-align: bottom;
   padding: 30px 40px;
+  /* border: 1px solid cyan; */
 }
 
 /* SUBSCRIPTION BUTTON STYLING */
 
 .buttonIn {
   width: 250px;
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 0px;
   position: relative;
+  /* border: 2px dotted cyan; */
   } 
   
   input {
@@ -372,6 +380,8 @@ footer {
   border: 0px;
   border-radius: 50px;
   box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.188);
+  /* border: 2px dashed red; */
+
   }
   
   .subscribe-btn {
@@ -389,7 +399,7 @@ footer {
   color: white;
   background-color: transparent;
   transform: translateX(2px);
-  /* background-color: #028ee6; */ /* this is the logo blue */
+  background-color: #028ee6;
   background: linear-gradient(to bottom, #028ee6 0%, #66ccff 100%);
   background-size: 80px;
   }
