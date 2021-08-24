@@ -1,4 +1,4 @@
-import { fishList } from "./fish/fishList2.js";
+import { fishList } from "./fish/fishList.js";
 import { tipList } from "./tips/tipList.js";
 import { locationList } from "./locations/locationList.js";
 
