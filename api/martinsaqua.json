@@ -1,0 +1,15 @@
+{
+	"fish": [
+        {
+            "name": "Betty Lou ",
+            "food": "Crustaceans",
+            "image": "1.png",
+            "species": "Trigger",
+            "length": 7,
+            "water": "Fresh",
+            "harvLoc": "Costa Rica"
+        }
+    ],
+	"tips": [],
+	"locations":[]
+}
