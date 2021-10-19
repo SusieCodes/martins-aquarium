@@ -1,6 +1,7 @@
 // Fish function that renders individual fish objects as HTML 
 
 export const Fish = (fishObj) => {
+    console.log(`../../images/${fishObj.image}`);
     return `<article class="fish-card">
 
                 <div><img class="fish-image" src="../../images/${fishObj.image}" />
