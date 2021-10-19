@@ -1,7 +1,7 @@
 // fishList renders individual fish objects as HTML
 
 import { getMostHolyFish, getSoldierFish, getUnworthyFish } from "./fishData.js";
-import { Fish } from "./fish.js";
+import { Fish } from "./Fish.js";
 
 export const fishList = () => {
     const holyFish = getMostHolyFish();
